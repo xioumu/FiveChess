@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FiveChess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP31.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/FiveChess.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\zrw\Program\23FiveChess\FiveChess.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP31.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/FiveChess.pdb" /machine:I386 /out:"Release/FiveChess.exe" 
+.\Release\FiveChess.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32.tmp"
+<h3>Output Window</h3>
+Compiling...
+FiveChess.cpp
+E:\zrw\Program\23FiveChess\FiveChess.cpp(27) : warning C4005: 'DE' : macro redefinition
+        E:\zrw\Program\23FiveChess\FiveChess.cpp(0) : see previous definition of 'DE'
+E:\zrw\Program\23FiveChess\FiveChess.cpp(217) : warning C4101: 'r' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(217) : warning C4101: 'w' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(217) : warning C4101: 'i' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(217) : warning C4101: 'j' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(217) : warning C4101: 'k' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(267) : warning C4101: 'r' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(267) : warning C4101: 'w' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(267) : warning C4101: 'k' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(330) : warning C4101: 'ynn' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(330) : warning C4101: 'xnn' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(329) : warning C4101: 'mm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(329) : warning C4101: 't2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(330) : warning C4101: 'xnn1' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(330) : warning C4101: 'xnn2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(330) : warning C4101: 'ynn1' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(330) : warning C4101: 'ynn2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(329) : warning C4101: 'hh' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(409) : warning C4101: 'r' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(409) : warning C4101: 'xm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(409) : warning C4101: 'w' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(409) : warning C4101: 'ym' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(436) : warning C4101: 'var1' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(434) : warning C4101: 'ymm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(434) : warning C4101: 'xmm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(436) : warning C4101: 'var2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(434) : warning C4101: 'w' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(435) : warning C4101: 'fin' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(508) : warning C4101: 'var1' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(506) : warning C4101: 'ymm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(506) : warning C4101: 'xmm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(508) : warning C4101: 'var2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(506) : warning C4101: 'w' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(507) : warning C4101: 'fin' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(584) : warning C4101: 'i' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(584) : warning C4101: 'j' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(596) : warning C4101: 'ynn' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(596) : warning C4101: 'xnn' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(595) : warning C4101: 'mm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(595) : warning C4101: 't2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(596) : warning C4101: 'xnn1' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(596) : warning C4101: 'xnn2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(596) : warning C4101: 'ynn1' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(596) : warning C4101: 'ynn2' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(595) : warning C4101: 'hh' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(656) : warning C4101: 'ymm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(656) : warning C4101: 'xmm' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(655) : warning C4101: 'r' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(655) : warning C4101: 'w' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(705) : warning C4101: 'r' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(705) : warning C4101: 'w' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(705) : warning C4101: 'i' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(705) : warning C4101: 'j' : unreferenced local variable
+E:\zrw\Program\23FiveChess\FiveChess.cpp(598) : warning C4700: local variable 'm' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+FiveChess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
